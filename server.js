@@ -109,6 +109,11 @@ app.delete("/api/books/:id", async (req, res) => {
   }
 });
 
+
+app.get("/api/exercise2", (req, res) => {
+  res.send("group 85 application deployed using docker")
+});
+
 /**********
  * SERVER *
  **********/
