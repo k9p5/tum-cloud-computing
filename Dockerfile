@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:lts-alpine3.10
 
 RUN mkdir -p /usr/src/server
 

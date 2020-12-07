@@ -1,9 +1,9 @@
 version: '3'
 services:
   server:
-    # build: .
-    image: kpaulus1997/cloudcomputinggroup85:latest
-    container_name: cloudcomputinggroup85
+    build: .
+    # image: spyridondangas/cloudcomputinggroup85:latest
+    # container_name: cloudcomputinggroup85
     depends_on:
       - "mongodb"
     environment:
